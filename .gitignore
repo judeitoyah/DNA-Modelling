@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Data (large CSVs — do not commit raw source files)
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Outputs
+outputs/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
